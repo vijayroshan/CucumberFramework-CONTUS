@@ -1,0 +1,250 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6212554800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user launches Chrome Browser",
+            "match": {
+              "location": "StepDefinition.theUserLaunchesChromeBrowser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User should be notified if whatsapp application is open in some other tab of the same browser",
+        "description": "",
+        "id": "to-validate-the-behavior-of-whatsapp-web-when-the-application-is-opened-in-two-tabs-of-the-same-browser;user-should-be-notified-if-whatsapp-application-is-open-in-some-other-tab-of-the-same-browser",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1399661100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Login screen of whatsapp web application is displayed",
+            "match": {
+              "location": "StepDefinition.loginScreenOfWhatsappWebApplicationIsDisplayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6832395500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User opens whatsapp web application in a new tab",
+            "match": {
+              "location": "StepDefinition.userOpensWhatsappWebApplicationInANewTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4021764000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Switches back to previous tab",
+            "match": {
+              "location": "StepDefinition.switchesBackToPreviousTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3052271100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "A popup with the message _Whatsapp is open in another window. Click _Use Here_ to use WhatsApp in this window_ should be displayed with _CLOSE_ \u0026 _USE HERE_ options",
+            "match": {
+              "location": "StepDefinition.aPopupWithTheMessage_WhatsappIsOpenInAnotherWindowClick_UseHere_ToUseWhatsAppInThisWindow_ShouldBeDisplayedWith_CLOSE__USEHERE_Options()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5343221500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user launches Chrome Browser",
+            "match": {
+              "location": "StepDefinition.theUserLaunchesChromeBrowser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Login page of whatsapp should get loaded by clicking on _USE HERE_ and in the previous tab the popup should be displayed.",
+        "description": "",
+        "id": "to-validate-the-behavior-of-whatsapp-web-when-the-application-is-opened-in-two-tabs-of-the-same-browser;login-page-of-whatsapp-should-get-loaded-by-clicking-on--use-here--and-in-the-previous-tab-the-popup-should-be-displayed.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11976023500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "A popup with the message _ Whatsapp is open in another window. Click _Use Here_ to use WhatsApp in this window_ and options _CLOSE_ \u0026 _USE HERE_ is displayed",
+            "match": {
+              "location": "StepDefinition.aPopupWithTheMessage_WhatsappIsOpenInAnotherWindowClick_UseHere_ToUseWhatsAppInThisWindow_AndOptions_CLOSE__USEHERE_IsDisplayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40254200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on _USE HERE_ option",
+            "match": {
+              "location": "StepDefinition.userClicksOn_USEHERE_Option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1016598100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Login page of whatsapp should get loaded",
+            "match": {
+              "location": "StepDefinition.loginPageOfWhatsappShouldGetLoaded()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23395800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Login page of whatsapp should get loaded",
+            "match": {
+              "location": "StepDefinition.loginPageOfWhatsappShouldGetLoaded()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7072055000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "In the previous tab, popup with message  _Whatsapp is open in another window. Click _Use Here_ to use WhatsApp in this window_ and options _CLOSE_ \u0026 _USE HERE_ should be displayed",
+            "match": {
+              "location": "StepDefinition.inThePreviousTabPopupWithMessage_WhatsappIsOpenInAnotherWindowClick_UseHere_ToUseWhatsAppInThisWindow_AndOptions_CLOSE__USEHERE_ShouldBeDisplayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5264741200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user launches Chrome Browser",
+            "match": {
+              "location": "StepDefinition.theUserLaunchesChromeBrowser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Whatsapp home screen should be displayed on clicking on _CLOSE_ option",
+        "description": "",
+        "id": "to-validate-the-behavior-of-whatsapp-web-when-the-application-is-opened-in-two-tabs-of-the-same-browser;whatsapp-home-screen-should-be-displayed-on-clicking-on--close--option",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11849115700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "The popup with the message _ Whatsapp is open in another window. Click _Use Here_ to use WhatsApp in this window_ and options _CLOSE_ \u0026 _USE HERE_ is displayed",
+            "match": {
+              "location": "StepDefinition.thePopupWithTheMessage_WhatsappIsOpenInAnotherWindowClick_UseHere_ToUseWhatsAppInThisWindow_AndOptions_CLOSE__USEHERE_IsDisplayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 947112500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks on _CLOSE_ option",
+            "match": {
+              "location": "StepDefinition.userClicksOn_CLOSE_Option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3177848900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Whatsapp.com page should get loaded",
+            "match": {
+              "location": "StepDefinition.whatsappComPageShouldGetLoaded()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the behavior of Whatsapp Web when the application is opened in two tabs of the same browser",
+    "description": "",
+    "id": "to-validate-the-behavior-of-whatsapp-web-when-the-application-is-opened-in-two-tabs-of-the-same-browser",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Scenario.feature",
+    "tags": []
+  }
+]

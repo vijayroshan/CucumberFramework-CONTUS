@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="70.145214">
+<testcase classname="To validate the behavior of Whatsapp Web when the application is opened in two tabs of the same browser" name="User should be notified if whatsapp application is open in some other tab of the same browser" time="21.591729">
+<system-out><![CDATA[Given The user launches Chrome Browser......................................passed
+Given Login screen of whatsapp web application is displayed.................passed
+When User opens whatsapp web application in a new tab.......................passed
+And Switches back to previous tab...........................................passed
+Then A popup with the message _Whatsapp is open in another window. Click _Use Here_ to use WhatsApp in this window_ should be displayed with _CLOSE_ & _USE HERE_ options.passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the behavior of Whatsapp Web when the application is opened in two tabs of the same browser" name="Login page of whatsapp should get loaded by clicking on _USE HERE_ and in the previous tab the popup should be displayed." time="25.968194">
+<system-out><![CDATA[Given The user launches Chrome Browser......................................passed
+Given A popup with the message _ Whatsapp is open in another window. Click _Use Here_ to use WhatsApp in this window_ and options _CLOSE_ & _USE HERE_ is displayed.passed
+When User clicks on _USE HERE_ option.......................................passed
+Then Login page of whatsapp should get loaded...............................passed
+And Login page of whatsapp should get loaded................................passed
+And In the previous tab, popup with message  _Whatsapp is open in another window. Click _Use Here_ to use WhatsApp in this window_ and options _CLOSE_ & _USE HERE_ should be displayed.passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the behavior of Whatsapp Web when the application is opened in two tabs of the same browser" name="Whatsapp home screen should be displayed on clicking on _CLOSE_ option" time="22.585291">
+<system-out><![CDATA[Given The user launches Chrome Browser......................................passed
+Given The popup with the message _ Whatsapp is open in another window. Click _Use Here_ to use WhatsApp in this window_ and options _CLOSE_ & _USE HERE_ is displayed.passed
+When User clicks on _CLOSE_ option..........................................passed
+Then Whatsapp.com page should get loaded....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
